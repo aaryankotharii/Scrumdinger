@@ -14,6 +14,7 @@
 		5B5F2C4625ADCE5900BFFEE9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C4525ADCE5900BFFEE9 /* DailyScrum.swift */; };
 		5B5F2C4B25ADCFC700BFFEE9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C4A25ADCFC700BFFEE9 /* CardView.swift */; };
 		5B5F2C4F25ADD36800BFFEE9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C4E25ADD36800BFFEE9 /* Color.swift */; };
+		5B5F2C5425ADD47100BFFEE9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C5325ADD47100BFFEE9 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5B5F2C4525ADCE5900BFFEE9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		5B5F2C4A25ADCFC700BFFEE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5B5F2C4E25ADD36800BFFEE9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5B5F2C5325ADD47100BFFEE9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		5B1DACB2258E7DE600BB01DB /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				5B5F2C5225ADD46A00BFFEE9 /* App */,
 				5B5F2C4D25ADD35F00BFFEE9 /* Extensions */,
 				5B5F2C4925ADCFB800BFFEE9 /* View */,
 				5B5F2C4425ADCE4F00BFFEE9 /* Model */,
@@ -100,6 +103,14 @@
 				5B5F2C4E25ADD36800BFFEE9 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5B5F2C5225ADD46A00BFFEE9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F2C5325ADD47100BFFEE9 /* ScrumsView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1DACB6258E7DE600BB01DB /* MeetingView.swift in Sources */,
+				5B5F2C5425ADD47100BFFEE9 /* ScrumsView.swift in Sources */,
 				5B5F2C4625ADCE5900BFFEE9 /* DailyScrum.swift in Sources */,
 				5B5F2C4B25ADCFC700BFFEE9 /* CardView.swift in Sources */,
 				5B5F2C4F25ADD36800BFFEE9 /* Color.swift in Sources */,
