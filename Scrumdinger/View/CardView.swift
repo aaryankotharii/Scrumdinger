@@ -33,12 +33,12 @@ struct CardView: View {
                     .accessibilityLabel(Text("Meeting Lenght"))
                     .accessibilityLabel(Text("\(scrum.lengthInMinutes) minutes"))
 
-            }
+            } // HSTACK
             .font(.caption)
-        }
+        } // VSTACK
         .padding()
         .foregroundColor(scrum.color.accessibleFontColor)
-    }
+    } // BODY
 }
 
 // MARK:- PREVIEWS
