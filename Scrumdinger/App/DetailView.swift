@@ -21,7 +21,7 @@ struct DetailView: View {
                     .font(.headline)
                     .foregroundColor(.accentColor)
                     .accessibilityLabel(Text("Start Meeting"))
-                }
+                } // NAVIGATION LINK
                 
                 HStack {
                     Label("Lenght", systemImage: "clock")
@@ -30,7 +30,7 @@ struct DetailView: View {
                     Spacer()
                     
                     Text("\(scrum.lengthInMinutes) minutes")
-                }
+                } // HSTACK
                 
                 HStack {
                   Label("Color", systemImage: "paintpalette")
@@ -39,9 +39,10 @@ struct DetailView: View {
                     
                   Image(systemName: "checkmark.circle.fill")
                     .foregroundColor(scrum.color)
-                }
+                } // HSTACK
+                
                 .accessibilityElement(children: .ignore)
-            }
+            } // SECTION 1
             
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees, id: \.self) { attendee in
@@ -49,11 +50,11 @@ struct DetailView: View {
                         .accessibilityLabel(Text("Person"))
                         .accessibilityValue(Text(attendee))
                 }
-            }
-        }
+            } // SECTION 2
+        } // LIST
         .listStyle(InsetGroupedListStyle())
         .navigationTitle(scrum.title)
-    }
+    } // BODY
 }
 
 // MARK:- PREVIEW
