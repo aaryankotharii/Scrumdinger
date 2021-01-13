@@ -9,10 +9,14 @@ import SwiftUI
 
 @main
 struct ScrumdingerApp: App {
+    // MARK:- PROPERTIES
+    @State private var scrums = DailyScrum.data
+    
+    // MARK:- BODY
     var body: some Scene {
         WindowGroup {
             NavigationView {
-            ScrumsView(scrums: DailyScrum.data)
+            ScrumsView(scrums: $scrums)
             } // NAVIGATION
         } // WIDNOW
     } // BODY
