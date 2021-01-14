@@ -17,6 +17,7 @@
 		5B5F2C5425ADD47100BFFEE9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C5325ADD47100BFFEE9 /* ScrumsView.swift */; };
 		5B5F2C5825ADDBD000BFFEE9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C5725ADDBD000BFFEE9 /* DetailView.swift */; };
 		5B5F2C5B25AF5F9A00BFFEE9 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C5A25AF5F9A00BFFEE9 /* EditView.swift */; };
+		5B5F2C5F25B030A000BFFEE9 /* MeetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5B5F2C5325ADD47100BFFEE9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		5B5F2C5725ADDBD000BFFEE9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5B5F2C5A25AF5F9A00BFFEE9 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				5B5F2C4A25ADCFC700BFFEE9 /* CardView.swift */,
+				5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				5B1DACB6258E7DE600BB01DB /* MeetingView.swift in Sources */,
 				5B5F2C5425ADD47100BFFEE9 /* ScrumsView.swift in Sources */,
 				5B5F2C5B25AF5F9A00BFFEE9 /* EditView.swift in Sources */,
+				5B5F2C5F25B030A000BFFEE9 /* MeetingHeader.swift in Sources */,
 				5B5F2C4625ADCE5900BFFEE9 /* DailyScrum.swift in Sources */,
 				5B5F2C5825ADDBD000BFFEE9 /* DetailView.swift in Sources */,
 				5B5F2C4B25ADCFC700BFFEE9 /* CardView.swift in Sources */,
