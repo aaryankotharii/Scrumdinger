@@ -69,7 +69,6 @@
 				5B5F2C4925ADCFB800BFFEE9 /* View */,
 				5B5F2C4425ADCE4F00BFFEE9 /* Model */,
 				5B1DACB3258E7DE600BB01DB /* ScrumdingerApp.swift */,
-				5B1DACB5258E7DE600BB01DB /* MeetingView.swift */,
 				5B1DACB7258E7DF100BB01DB /* Assets.xcassets */,
 				5B1DACBC258E7DF100BB01DB /* Info.plist */,
 				5B1DACB9258E7DF100BB01DB /* Preview Content */,
@@ -112,6 +111,7 @@
 		5B5F2C5225ADD46A00BFFEE9 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5B1DACB5258E7DE600BB01DB /* MeetingView.swift */,
 				5B5F2C5325ADD47100BFFEE9 /* ScrumsView.swift */,
 				5B5F2C5725ADDBD000BFFEE9 /* DetailView.swift */,
 				5B5F2C5A25AF5F9A00BFFEE9 /* EditView.swift */,
