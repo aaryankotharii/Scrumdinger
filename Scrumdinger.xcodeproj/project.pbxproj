@@ -23,6 +23,7 @@
 		5B5F2C6925B1E35100BFFEE9 /* MeetingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */; };
 		5B5F2C7E25B3513C00BFFEE9 /* SharedDingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */; };
 		5B5F2C8225B3517000BFFEE9 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F2C8125B3517000BFFEE9 /* ding.wav */; };
+		5B5F2C8525B35BFE00BFFEE9 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C8425B35BFE00BFFEE9 /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooter.swift; sourceTree = "<group>"; };
 		5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDingPlayer.swift; sourceTree = "<group>"; };
 		5B5F2C8125B3517000BFFEE9 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		5B5F2C8425B35BFE00BFFEE9 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5B5F2C4525ADCE5900BFFEE9 /* DailyScrum.swift */,
 				5B5F2C6425B1C8C200BFFEE9 /* ScrumTimer.swift */,
 				5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */,
+				5B5F2C8425B35BFE00BFFEE9 /* ScrumData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				5B1DACB6258E7DE600BB01DB /* MeetingView.swift in Sources */,
 				5B5F2C5425ADD47100BFFEE9 /* ScrumsView.swift in Sources */,
+				5B5F2C8525B35BFE00BFFEE9 /* ScrumData.swift in Sources */,
 				5B5F2C5B25AF5F9A00BFFEE9 /* EditView.swift in Sources */,
 				5B5F2C7E25B3513C00BFFEE9 /* SharedDingPlayer.swift in Sources */,
 				5B5F2C5F25B030A000BFFEE9 /* MeetingHeader.swift in Sources */,
