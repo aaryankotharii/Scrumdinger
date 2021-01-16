@@ -24,6 +24,7 @@
 		5B5F2C7E25B3513C00BFFEE9 /* SharedDingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */; };
 		5B5F2C8225B3517000BFFEE9 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F2C8125B3517000BFFEE9 /* ding.wav */; };
 		5B5F2C8525B35BFE00BFFEE9 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C8425B35BFE00BFFEE9 /* ScrumData.swift */; };
+		5B5F2C8825B365D200BFFEE9 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C8725B365D200BFFEE9 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDingPlayer.swift; sourceTree = "<group>"; };
 		5B5F2C8125B3517000BFFEE9 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		5B5F2C8425B35BFE00BFFEE9 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		5B5F2C8725B365D200BFFEE9 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */,
 				5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */,
 				5B5F2C6125B0342500BFFEE9 /* ScrumProgressViewStyle.swift */,
+				5B5F2C8725B365D200BFFEE9 /* MeetingTimerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				5B5F2C4F25ADD36800BFFEE9 /* Color.swift in Sources */,
 				5B5F2C6225B0342500BFFEE9 /* ScrumProgressViewStyle.swift in Sources */,
 				5B5F2C6525B1C8C200BFFEE9 /* ScrumTimer.swift in Sources */,
+				5B5F2C8825B365D200BFFEE9 /* MeetingTimerView.swift in Sources */,
 				5B5F2C6925B1E35100BFFEE9 /* MeetingFooter.swift in Sources */,
 				5B1DACB4258E7DE600BB01DB /* ScrumdingerApp.swift in Sources */,
 			);
