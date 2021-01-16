@@ -20,6 +20,7 @@
 		5B5F2C5F25B030A000BFFEE9 /* MeetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */; };
 		5B5F2C6225B0342500BFFEE9 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C6125B0342500BFFEE9 /* ScrumProgressViewStyle.swift */; };
 		5B5F2C6525B1C8C200BFFEE9 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C6425B1C8C200BFFEE9 /* ScrumTimer.swift */; };
+		5B5F2C6925B1E35100BFFEE9 /* MeetingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeader.swift; sourceTree = "<group>"; };
 		5B5F2C6125B0342500BFFEE9 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		5B5F2C6425B1C8C200BFFEE9 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				5B5F2C4A25ADCFC700BFFEE9 /* CardView.swift */,
+				5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */,
 				5B5F2C5E25B030A000BFFEE9 /* MeetingHeader.swift */,
 				5B5F2C6125B0342500BFFEE9 /* ScrumProgressViewStyle.swift */,
 			);
@@ -207,6 +210,7 @@
 				5B5F2C4F25ADD36800BFFEE9 /* Color.swift in Sources */,
 				5B5F2C6225B0342500BFFEE9 /* ScrumProgressViewStyle.swift in Sources */,
 				5B5F2C6525B1C8C200BFFEE9 /* ScrumTimer.swift in Sources */,
+				5B5F2C6925B1E35100BFFEE9 /* MeetingFooter.swift in Sources */,
 				5B1DACB4258E7DE600BB01DB /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
