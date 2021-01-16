@@ -22,6 +22,7 @@
 		5B5F2C6525B1C8C200BFFEE9 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C6425B1C8C200BFFEE9 /* ScrumTimer.swift */; };
 		5B5F2C6925B1E35100BFFEE9 /* MeetingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */; };
 		5B5F2C7E25B3513C00BFFEE9 /* SharedDingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */; };
+		5B5F2C8225B3517000BFFEE9 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F2C8125B3517000BFFEE9 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5B5F2C6425B1C8C200BFFEE9 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		5B5F2C6825B1E35100BFFEE9 /* MeetingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooter.swift; sourceTree = "<group>"; };
 		5B5F2C7D25B3513C00BFFEE9 /* SharedDingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDingPlayer.swift; sourceTree = "<group>"; };
+		5B5F2C8125B3517000BFFEE9 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		5B1DACB2258E7DE600BB01DB /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				5B5F2C8025B3515F00BFFEE9 /* Resources */,
 				5B5F2C5225ADD46A00BFFEE9 /* App */,
 				5B5F2C4D25ADD35F00BFFEE9 /* Extensions */,
 				5B5F2C4925ADCFB800BFFEE9 /* View */,
@@ -134,6 +137,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		5B5F2C8025B3515F00BFFEE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F2C8125B3517000BFFEE9 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5F2C8225B3517000BFFEE9 /* ding.wav in Resources */,
 				5B1DACBB258E7DF100BB01DB /* Preview Assets.xcassets in Resources */,
 				5B1DACB8258E7DF100BB01DB /* Assets.xcassets in Resources */,
 			);

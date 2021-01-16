@@ -12,7 +12,7 @@ struct MeetingView: View {
     // MARK:- PROPERTIES
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
-    var player: AVPlayer = { AVPlayer.shar}
+    var player: AVPlayer = { AVPlayer.sharedDingPlayer }()
     
     // MARK:- BODY
     var body: some View {
@@ -39,6 +39,10 @@ struct MeetingView: View {
     func start() {
         scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
         scrumTimer.startScrum()
+        scrumTimer.speakerChangedAction = {
+            player.seek(to: .zero)
+            player.play()
+        }
     }
     
     
