@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct MeetingView: View {
     // MARK:- PROPERTIES
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
+    var player: AVPlayer = { AVPlayer.shar}
     
     // MARK:- BODY
     var body: some View {
@@ -25,7 +27,7 @@ struct MeetingView: View {
                 
                 Circle()
                     .strokeBorder(lineWidth: 24, antialiased: true)
-                MeetingFooter()
+                MeetingFooter(speakers: $scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             } // VSTACK
         } // ZSTACK
         .padding()

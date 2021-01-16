@@ -17,9 +17,11 @@ struct MeetingFooter: View {
         guard let index = speakers.firstIndex(where: { !$0.isCompleted }) else { return nil }
         return index + 1
     }
+    
     private var isLastSpeaker : Bool {
         return speakers.dropLast().allSatisfy{ $0.isCompleted }
     }
+    
     private var speakerText: String {
         guard let speakerNo = speakerNumber else { return "No more speakers" }
         return "Speaker \(speakerNo) of \(speakers.count)"
