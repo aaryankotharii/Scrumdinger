@@ -6,12 +6,12 @@
 iOS App Dev with SwiftUI: https://developer.apple.com/tutorials/app-dev-training. </p> </b>
 
 <br> <br>
-<p align = "left"> <img src = "Assets/poster.png" width = "40%" height = "40%"> </p>
+<p align = "center"> <img src = "Assets/poster.png" width = "35%" height = "35%"> </p>
 
 
 ## SwiftUI 2.0
 
-#### ColorPicker:
+### ColorPicker:
 ```
 The color picker provides a system color picker that allows users to select a color.
 ```
